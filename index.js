@@ -84,6 +84,9 @@ const stake = (result, contract, accounts) => {
     e.preventDefault()
     await contract.methods.stake(inputBudget, inputReward, inputDescription).send({ from: accounts[0] })
     balance(result, contract, accounts)
+    balance2(result, contract, accounts)
+    missionDescription(result, contract, accounts)
+    rewardHero(result, contract, accounts)
   })
 }
 
@@ -97,6 +100,10 @@ const withdraw = (result, contract, accounts) => {
     e.preventDefault()
     await contract.methods.withdraw().send({from: accounts[0] })
     balance(result, contract, accounts)
+    balance2(result, contract, accounts)
+    heroBalance(result, contract, accounts)
+    missionDescription(result, contract, accounts)
+    rewardHero(result, contract, accounts)
   })
 }
 
