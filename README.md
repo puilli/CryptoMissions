@@ -5,7 +5,7 @@
 #Contract Address
 
 Polygon Mumbai testnet:
-0x23705f27B85f9AF3663Eed63Ca7Fb3E939087B09
+0x6AF2Ea5A4bd7a74Eec05BE818f414a23bE33f92B
 
 
 RSK testnet: 
