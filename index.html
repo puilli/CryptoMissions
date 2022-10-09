@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missions for Good dApp</title>
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./index.js"></script>
+  </head>
+
+  <body class="container">
+    <h1 class="page-header">Missions For Good dApp</h1>
+    <br />
+
+    <h2>
+      Mission balance:
+      <label id="lastInfo"></label>
+    </h2>
+
+    <h3>Deposit</h3>
+    <form id="form" class="form-inline" role="form">
+      <input class="form-control" id="input" type="number" />
+      <input type="submit" class="btn btn-primary" value="Make Deposit" />
+    </form>
+
+    
+    <h3>Withdraw</h3>
+    <form id="form-withdraw" class="form-inline" role="form">
+      <input class="form-control" id="input-withdraw" type="number" />
+      <input type="submit" class="btn btn-primary" value="Withdraw now" />
+    </form>
+
+    
+
+  </body>
+</html>
