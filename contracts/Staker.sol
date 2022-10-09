@@ -15,6 +15,7 @@ contract Staker {
     
   
   function stake(uint amount, uint amountPerHero, string memory description) public payable {
+    activeMission = msg.sender;
     missionBalances[msg.sender] += amount;
     missionIncentivePerHero[msg.sender] = amountPerHero;
     missionDetail[msg.sender] = description;
